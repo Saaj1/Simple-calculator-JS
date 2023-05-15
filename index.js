@@ -1,15 +1,17 @@
 let display = document.getElementById('screen');
 
+//clears the display screen
 function wipe() {
   display.value = '';
 }
 
+//deletes last number
 function backspace() {
   let currentValue = display.value;
   display.value = currentValue.slice(0, -1);
 }
 
-
+//display
 function show(number) {
   display.value += number;
 }
