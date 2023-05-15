@@ -17,7 +17,7 @@ body {
 }
 
 body {
-  background: #ffe5ec;
+  background: aliceblue;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,12 +46,12 @@ button:focus {
 }
 
 .calculator {
-  background: #fff;
+  background-image: linear-gradient(#023e7d, black, #023e7d);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: .75rem;
   width: 325px;
-  border: 1px solid #ff5d8f;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   padding: .75rem;
   border-radius: 1rem;
   position: fixed;
@@ -65,14 +65,14 @@ button:focus {
   border-radius: .75rem;
   font-size: 2rem;
   height: 6rem;
-  color: #ff5d8f;
-  background: #ffe5ec;
+  color: aliceblue;
+  background: #212529;
   text-align: end;
   padding: .5rem;
 }
 
 ::placeholder {
-  color: #fff;
+  color: aliceblue;
 }
 
 .symbol,
@@ -83,25 +83,23 @@ button:focus {
   text-align: center;
   aspect-ratio: 1;
   font-size: 1.25rem;
-  color: #ff5d8f;
+  color: aliceblue;
   border-radius: 50%;
   transition: .15s ease;
 }
 
 .symbol {
-  background: #72ddf7;
+  background-image: linear-gradient(#023e7d, black, #023e7d);
 }
 
 .symbol:hover {
-  background: #ff5d8f;
-  color:#72ddf7 ;
+  background: #212529;
 }
 
 .number {
-  background: #fff;
-  border:1px solid #ff5d8f;
+  background: #212529;
 }
 
 .number:hover {
-  background: #ffe5ec;
+  background-image: linear-gradient(#023e7d, black, #023e7d);
 }
